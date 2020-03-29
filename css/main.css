@@ -4,6 +4,11 @@
 	font-family: 'Arial', sans-serif;
 }
 
+.hidden
+{
+	display: none;
+}
+
 header
 {
 	display: flex;
@@ -153,7 +158,6 @@ header
 	flex-direction: row;
 	justify-content: space-around;
 	margin: auto;
-	background-color: grey;
 
 	align-items: center;
 
@@ -186,4 +190,65 @@ header
 {
 	padding-top: 2.5%;
 	font-size: 1.2vw;
+}
+
+.burger
+{
+	width: 5vh;
+	height: 5vh;
+	background-color: lightgrey;
+
+	display: none;
+}
+
+@media screen and (max-width: 768px)
+{
+	.burger
+	{
+		display: block;
+	}
+
+	.navBar
+	{
+		display: none;
+	}
+
+	.firstBox
+	{
+		display: none;
+	}
+
+	.addBox
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+	.address
+	{
+		margin-bottom: 25px;
+	}
+
+	.footerSocial
+	{
+		display: flex;
+		justify-content: space-around;
+	}
+}
+
+@media screen and (max-width: 1168px)
+{
+	.mainBody
+	{
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.mainBody
+	{
+		width: 95%;
+	}
 }
