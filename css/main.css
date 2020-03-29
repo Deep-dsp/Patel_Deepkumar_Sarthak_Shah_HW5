@@ -11,6 +11,8 @@ header
 	justify-content: space-around;
 	margin: auto;
 	background-color: #000;
+
+	align-items: center;
 }
 
 .logo
@@ -38,5 +40,150 @@ header
 .navBar p
 {
 	padding-top: 5%;
+	font-size: 1.2vw;
+}
+
+.mainBody
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 80%;
+
+
+	margin: auto;
+}
+
+.firstBox, .secondBox
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	text-align: center;
+	margin-top: 125px;
+}
+
+.imageBox
+{
+	width: 50vh;
+	height: 60vh;
+	background-color: lightgrey;
+}
+
+.imageBox p
+{
+	padding-top: 60%;
+	font-size: 1.2vw;
+}
+
+.reachText
+{
+	width: 50vh;
+	height: 10vh;
+	margin-top: 30px;
+	background-color: lightgrey;
+}
+
+.reachText p
+{
+	padding-top: 8%;
+	font-size: 1.2vw;
+}
+
+.conTag
+{
+	width: 50vh;
+	height: 10vh;
+	margin-top: 30px;
+	background-color: lightgrey;
+	margin-bottom: 30px;
+}
+
+.conTag p
+{
+	padding-top: 8%;
+	font-size: 1.2vw;
+}
+
+.formBox
+{
+	width: 50vh;
+	height: 60vh;
+	background-color: lightgrey;
+}
+
+.formBox p
+{
+	padding-top: 60%;
+	font-size: 1.2vw;
+}
+
+.addBox
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	background-color: #000;
+	padding: 30px;
+
+	margin-top: 100px;
+	text-align: center;
+}
+
+.address, .gpsBox
+{
+	width: 50vh;
+	height: 30vh;
+	background-color: lightgrey;
+}
+
+.address p, .gpsBox p
+{
+	padding-top: 25%;
+	font-size: 1.2vw;	
+}
+
+.footerSocial
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: auto;
+	background-color: grey;
+
+	align-items: center;
+
+	margin-top: 15px;
+}
+
+.copyText
+{
+	width: 60vh;
+	height: 5vh;
+	background-color: lightgrey; 
+	text-align: center;                                                            	
+}
+
+.copyText p
+{
+	padding-top: 2.5%;
+	font-size: 1.2vw;
+}
+
+.socialIcon
+{
+	width: 60vh;
+	height: 5vh;
+	background-color: lightgrey; 
+	text-align: center;                                                             	
+}
+
+.socialIcon p
+{
+	padding-top: 2.5%;
 	font-size: 1.2vw;
 }
